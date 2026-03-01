@@ -16,7 +16,7 @@ public class FarmerMovement : MonoBehaviour
 
     private void OnMove(InputValue value)
     {
-        Debug.Log("OnMove");
+        // Debug.Log("OnMove");
         _moveDirection = value.Get<Vector2>();
         
         // 대각선 벡터 정규화
