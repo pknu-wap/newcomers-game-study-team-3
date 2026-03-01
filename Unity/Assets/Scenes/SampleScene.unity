@@ -722,6 +722,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2069873343277316316, guid: 161d6c87c0a8a71469af3148d8ec0a7f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2779166551368290755, guid: 161d6c87c0a8a71469af3148d8ec0a7f, type: 3}
+      propertyPath: expChip
+      value: 
+      objectReference: {fileID: 1252963636334546289, guid: 7261bb4b0a70a9741a4b426db0047a82, type: 3}
     - target: {fileID: 6868568036613982952, guid: 161d6c87c0a8a71469af3148d8ec0a7f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.24
