@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6868568036613982952
 Transform:
   m_ObjectHideFlags: 0
@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b621d3e8ad2eedf45b4506654c088168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHp
+  expChip: {fileID: 1252963636334546289, guid: 7261bb4b0a70a9741a4b426db0047a82, type: 3}
 --- !u!50 &4952901062444314893
 Rigidbody2D:
   serializedVersion: 5

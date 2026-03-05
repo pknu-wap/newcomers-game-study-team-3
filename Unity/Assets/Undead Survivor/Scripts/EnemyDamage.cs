@@ -6,6 +6,6 @@ public class EnemyDamage : MonoBehaviour
     
     private void OnTriggerStay2D(Collider2D other)
     {
-        // 농부의 체력을 감소시키는 코드를 작성해봅시다.
+        if (other.CompareTag("Player")) other.GetComponent<FarmerHp>().TakeDamage(Damage);
     }
 }

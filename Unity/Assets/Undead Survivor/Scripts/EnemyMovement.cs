@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    private const float Speed = 5f;
+    private const float Speed = 2f;
     private Transform _playerTransform;
 
     private void Awake()

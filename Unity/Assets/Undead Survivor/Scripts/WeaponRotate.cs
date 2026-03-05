@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class WeaponRotate : MonoBehaviour
 {
-    private const float Speed = 50f;
+    private const float Speed = 500f;
 
     private void Update()
     {
