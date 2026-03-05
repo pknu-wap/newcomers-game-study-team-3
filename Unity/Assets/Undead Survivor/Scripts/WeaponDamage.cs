@@ -7,5 +7,6 @@ public class WeaponDamage : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         other.GetComponent<EnemyHp>().TakeDamage(Damage);
+        other.GetComponent<EnemyMovement>().Knockback();
     }
 }
