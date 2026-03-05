@@ -15,6 +15,8 @@ public class FarmerLevel : MonoBehaviour
             _level++;
             // 경험치 통 레벨의 50배수로 증가.
             _maxExp = _level * 50;
+            
+            TimeController.PauseGame();
         }
         
         Debug.Log("레벨: "+_level+" 경험치: "+_currentExp);
