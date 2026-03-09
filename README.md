@@ -1,1 +1,0 @@
-# newcomers-game-study-team-3
