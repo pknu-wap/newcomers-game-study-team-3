@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 532672062}
   - component: {fileID: 532672064}
   - component: {fileID: 532672063}
+  - component: {fileID: 532672065}
   m_Layer: 0
   m_Name: Farmer
   m_TagString: Player
@@ -471,6 +472,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1.1111112}
   m_Direction: 0
+--- !u!114 &532672065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532672057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2473cfb789807143adc0dc9d68470f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FarmerLevel
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,35 +568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &772013363 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3898686727978385822, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
-  m_PrefabInstance: {fileID: 3276031187211704997}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &772013369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772013363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 074961d7cc8984d4db2cab6976071645, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
---- !u!114 &772013370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772013363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 987df4a1f3fb51748be93ccc3f4285e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyHp
 --- !u!1 &1354383574
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,15 +741,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3898686727978385822, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4101586732794814084, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
+      propertyPath: expChip
+      value: 
+      objectReference: {fileID: 2374236677290346546, guid: c505f1e56ce3ca94386e8ebf5bdc7814, type: 3}
     - target: {fileID: 6641492991221478525, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5725808
+      value: 4.83
       objectReference: {fileID: 0}
     - target: {fileID: 6641492991221478525, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08064516
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6641492991221478525, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
       propertyPath: m_LocalPosition.z
@@ -802,13 +790,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3898686727978385822, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 772013369}
-    - targetCorrespondingSourceObject: {fileID: 3898686727978385822, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 772013370}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4961a2214b7b28a45b70b8dd3dc055db, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
